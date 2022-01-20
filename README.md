@@ -68,4 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # apiReactPop
+
+Aplicacion de compra y venta de articulos
+
+## Rutas
+
+/adverts/
+nos lleva a listado de anuncios publicados, en el caso de que no
+existan nos indica un enlace para la creacion del primero
+
+/adverts/:id
+nos muestra el detalle del anuncio
+
+/adverts/new
+ruta la creacion de nuestro anuncio
+
+/login
+nos llevara al login de la página
+Solo esta ruta se encuentra desprotegida y accesible para cualquier usuario, las demas rutas deberan de ser autenticadas mediante el token del login
