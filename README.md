@@ -88,3 +88,8 @@ ruta la creacion de nuestro anuncio
 /login
 nos llevara al login de la página
 Solo esta ruta se encuentra desprotegida y accesible para cualquier usuario, las demas rutas deberan de ser autenticadas mediante el token del login
+
+## env
+
+Tendreis que crear un fichero .env como el del ejemplo y poner
+la url donde apunta vuestra api
